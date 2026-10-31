@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fettle-sh is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fettle.sh/
+Fettle provides hosted uptime monitoring services tailored for developers and their AI agents. It offers HTTP, TCP, ping, DNS, SSL checks across multiple regions, along with cron job heartbeats. The platform includes a public REST API and an MCP server on every plan, enabling integration and automation for monitoring tasks. Paid plans start at $9/month, with a free tier available.
+
+**Areas:** Monitoring · Uptime · Developers · AI Agents · API
+
+## fettle-sh on APIs.io
+
+Everything profiled for fettle-sh is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fettle-sh/](https://apis.io/providers/fettle-sh/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [fettle API](https://apis.io/apis/fettle-sh/fettle-api/) — Public REST API for Fettle uptime monitoring service
+- [fettle.sh Api API](https://apis.io/apis/fettle-sh/fettle-sh-api-api/) — fettle.sh Api API: 136 operations.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Fettle Sh Webhooks](https://apis.io/asyncapis/fettle-sh/fettle-sh-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [HeartbeatRead](https://apis.io/schemas/fettle-sh/fettle-sh-heartbeat-read/)
+- [IncidentRead](https://apis.io/schemas/fettle-sh/fettle-sh-incident-read/)
+- [MonitorRead](https://apis.io/schemas/fettle-sh/fettle-sh-monitor-read/)
+- [SslCheckResponse](https://apis.io/schemas/fettle-sh/fettle-sh-ssl-check-response/)
+- [StatusPagePublicRead](https://apis.io/schemas/fettle-sh/fettle-sh-status-page-public-read/)
+- [SubscriptionSummary](https://apis.io/schemas/fettle-sh/fettle-sh-subscription-summary/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fettle Sh Context](https://apis.io/jsonld/fettle-sh/fettle-sh-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [fettle-sh API Rules](https://apis.io/rules/fettle-sh/fettle-sh-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fettle Sh Authentication](https://apis.io/security/fettle-sh/fettle-sh-authentication/)
+- [Fettle Sh Domain Security](https://apis.io/security/fettle-sh/fettle-sh-domain-security/)
+- [Fettle Sh Vulnerability Disclosure](https://apis.io/security/fettle-sh/fettle-sh-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fettle Sh Plans Pricing](https://apis.io/plans/fettle-sh/fettle-sh-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fettle.sh/)
+- [Documentation](https://fettle.sh/docs)
+- [Getting started](https://fettle.sh/docs/quickstart)
+- [API reference](https://api.fettle.sh/public-api/docs)
+- [Pricing](https://fettle.sh/pricing)
+- [Blog](https://fettle.sh/blog)
+- [Terms of service](https://fettle.sh/terms)
+- [Privacy policy](https://fettle.sh/privacy)
+- [Status](https://status.fettle.sh/fettle-platform)
+
+## API Evangelist rating
+
+**Kin Score 62.8** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 64.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 42.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fettle-sh/](https://apis.io/providers/fettle-sh/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for fettle-sh: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fettle-sh/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
