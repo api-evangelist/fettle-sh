@@ -64,51 +64,43 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fettle provides hosted uptime monitoring services tailored for developers and their AI agents. It offers HTTP, TCP, ping, DNS, SSL checks across multiple regions, along with cron job heartbeats. The platform includes a public REST API and an MCP server on every plan, enabling integration and automation for monitoring tasks. Paid plans start at $9/month, with a free tier available.
+Fettle provides uptime monitoring that plugs into how you already work: a REST API and MCP on every plan, status pages, and badges. It offers detailed alerts, customizable monitors, and integrates with developer workflows. The service includes public API documentation, pricing, a blog, and support resources for developers.
 
-**Areas:** Monitoring · Uptime · Developers · AI Agents · API
+**Areas:** Monitoring · Uptime · API · DevOps · SaaS · Company
 
 ## fettle-sh on APIs.io
 
 Everything profiled for fettle-sh is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fettle-sh/](https://apis.io/providers/fettle-sh/)** — or go straight to one of the APIs or properties below.
 
-### APIs (2)
+### APIs (23)
 
-- [fettle API](https://apis.io/apis/fettle-sh/fettle-api/) — Public REST API for Fettle uptime monitoring service
-- [fettle.sh Api API](https://apis.io/apis/fettle-sh/fettle-sh-api-api/) — fettle.sh Api API: 136 operations.
+- [fettle-sh API Keys API](https://apis.io/apis/fettle-sh/fettle-sh-api-keys-api/) — The API Keys API from fettle-sh — 4 operation(s) for api keys.
+- [fettle-sh Badges (public) API](https://apis.io/apis/fettle-sh/fettle-sh-badges-public-api/) — The Badges (public) API from fettle-sh — 2 operation(s) for badges (public).
+- [fettle-sh Billing API](https://apis.io/apis/fettle-sh/fettle-sh-billing-api/) — The Billing API from fettle-sh — 2 operation(s) for billing.
+- [fettle-sh Channels API](https://apis.io/apis/fettle-sh/fettle-sh-channels-api/) — The Channels API from fettle-sh — 4 operation(s) for channels.
+- [fettle-sh Heartbeat Ingest API](https://apis.io/apis/fettle-sh/fettle-sh-heartbeat-ingest-api/) — The Heartbeat Ingest API from fettle-sh — 3 operation(s) for heartbeat ingest.
+- [fettle-sh Heartbeats API](https://apis.io/apis/fettle-sh/fettle-sh-heartbeats-api/) — The Heartbeats API from fettle-sh — 5 operation(s) for heartbeats.
+- [fettle-sh Incidents API](https://apis.io/apis/fettle-sh/fettle-sh-incidents-api/) — The Incidents API from fettle-sh — 4 operation(s) for incidents.
+- [fettle-sh Integrations API](https://apis.io/apis/fettle-sh/fettle-sh-integrations-api/) — The Integrations API from fettle-sh — 2 operation(s) for integrations.
+- [fettle-sh Invitations API](https://apis.io/apis/fettle-sh/fettle-sh-invitations-api/) — The Invitations API from fettle-sh — 5 operation(s) for invitations.
+- [fettle-sh Maintenance Windows API](https://apis.io/apis/fettle-sh/fettle-sh-maintenance-windows-api/) — The Maintenance Windows API from fettle-sh — 5 operation(s) for maintenance windows.
+- [fettle-sh Monitors API](https://apis.io/apis/fettle-sh/fettle-sh-monitors-api/) — The Monitors API from fettle-sh — 18 operation(s) for monitors.
+- [fettle-sh OAuth API](https://apis.io/apis/fettle-sh/fettle-sh-oauth-api/) — The OAuth API from fettle-sh — 4 operation(s) for oauth.
+- [fettle-sh Organizations API](https://apis.io/apis/fettle-sh/fettle-sh-organizations-api/) — The Organizations API from fettle-sh — 9 operation(s) for organizations.
+- [fettle-sh Plans API](https://apis.io/apis/fettle-sh/fettle-sh-plans-api/) — The Plans API from fettle-sh — 2 operation(s) for plans.
+- [fettle-sh Promo codes API](https://apis.io/apis/fettle-sh/fettle-sh-promo-codes-api/) — The Promo codes API from fettle-sh — 1 operation(s) for promo codes.
+- [fettle-sh Pulse (public) API](https://apis.io/apis/fettle-sh/fettle-sh-pulse-public-api/) — The Pulse (public) API from fettle-sh — 1 operation(s) for pulse (public).
+- [fettle-sh Regions API](https://apis.io/apis/fettle-sh/fettle-sh-regions-api/) — The Regions API from fettle-sh — 1 operation(s) for regions.
+- [fettle-sh Status pages API](https://apis.io/apis/fettle-sh/fettle-sh-status-pages-api/) — The Status pages API from fettle-sh — 10 operation(s) for status pages.
+- [fettle-sh Status pages (public) API](https://apis.io/apis/fettle-sh/fettle-sh-status-pages-public-api/) — The Status pages (public) API from fettle-sh — 4 operation(s) for status pages (public).
+- [fettle-sh System API](https://apis.io/apis/fettle-sh/fettle-sh-system-api/) — The System API from fettle-sh — 4 operation(s) for system.
+- [fettle-sh Tags API](https://apis.io/apis/fettle-sh/fettle-sh-tags-api/) — The Tags API from fettle-sh — 1 operation(s) for tags.
+- [fettle-sh Tools (public) API](https://apis.io/apis/fettle-sh/fettle-sh-tools-public-api/) — The Tools (public) API from fettle-sh — 2 operation(s) for tools (public).
+- [fettle-sh Users API](https://apis.io/apis/fettle-sh/fettle-sh-users-api/) — The Users API from fettle-sh — 16 operation(s) for users.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### AsyncAPI (1)
-
-Event-driven and webhook contracts.
-
-- [Fettle Sh Webhooks](https://apis.io/asyncapis/fettle-sh/fettle-sh-webhooks/)
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [HeartbeatRead](https://apis.io/schemas/fettle-sh/fettle-sh-heartbeat-read/)
-- [IncidentRead](https://apis.io/schemas/fettle-sh/fettle-sh-incident-read/)
-- [MonitorRead](https://apis.io/schemas/fettle-sh/fettle-sh-monitor-read/)
-- [SslCheckResponse](https://apis.io/schemas/fettle-sh/fettle-sh-ssl-check-response/)
-- [StatusPagePublicRead](https://apis.io/schemas/fettle-sh/fettle-sh-status-page-public-read/)
-- [SubscriptionSummary](https://apis.io/schemas/fettle-sh/fettle-sh-subscription-summary/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Fettle Sh Context](https://apis.io/jsonld/fettle-sh/fettle-sh-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [fettle-sh API Rules](https://apis.io/rules/fettle-sh/fettle-sh-rules/)
 
 #### Security (3)
 
@@ -118,11 +110,23 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Fettle Sh Domain Security](https://apis.io/security/fettle-sh/fettle-sh-domain-security/)
 - [Fettle Sh Vulnerability Disclosure](https://apis.io/security/fettle-sh/fettle-sh-vulnerability-disclosure/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Fettle Sh Scopes](https://apis.io/scopes/fettle-sh/fettle-sh-scopes/)
+
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
 - [Fettle Sh Plans Pricing](https://apis.io/plans/fettle-sh/fettle-sh-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Fettle Sh Rate Limits](https://apis.io/rate-limits/fettle-sh/fettle-sh-rate-limits/)
 
 ## Where to find this API
 
@@ -133,25 +137,27 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Getting started](https://fettle.sh/docs/quickstart)
 - [API reference](https://api.fettle.sh/public-api/docs)
 - [Pricing](https://fettle.sh/pricing)
+- [Sign up](https://fettle.sh/register)
 - [Blog](https://fettle.sh/blog)
 - [Terms of service](https://fettle.sh/terms)
 - [Privacy policy](https://fettle.sh/privacy)
+- [GitHub](https://github.com/fettlesh/monitoring-mcp)
 - [Status](https://status.fettle.sh/fettle-platform)
 
 ## API Evangelist rating
 
-**Kin Score 62.8** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 53.0** — developing · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 64.9 |
-| Contract governance | 79.1 |
-| Operational transparency | 34.2 |
-| Developer ergonomics | 50.0 |
+| Discoverability | 65.0 |
+| Contract quality | 44.8 |
+| Contract governance | 0.0 |
+| Operational transparency | 60.0 |
+| Developer ergonomics | 49.3 |
 | Access clarity | 73.2 |
 
-**Agent readiness 42.2** — agent-ready (gated down from agent-native)
+**Agent readiness 50.9** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -161,11 +167,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | derived (partial credit) |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
-| Event Surface Described | unknown |
-| Agent Skills | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -174,10 +180,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fettle-sh/](https://apis.io/providers/fettle-sh/).
 
